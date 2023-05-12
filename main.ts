@@ -15,4 +15,5 @@ basic.forever(function () {
     serial.writeLine("Champ magnetique")
     serial.writeNumber(input.magneticForce(Dimension.X))
     serial.writeLine("")
+    basic.pause(2000)
 })
